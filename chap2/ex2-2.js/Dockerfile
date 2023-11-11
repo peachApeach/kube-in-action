@@ -7,3 +7,6 @@ ADD app.js /app.js
 # 이미지를 실행했을 때 수행해야할 명령어
 # > node app.js 실행
 ENTRYPOINT [ "node", "app.js" ]
+
+# 해당 Dockerfile 실행 시 사용 명령어
+# > docker build -t imageName .
